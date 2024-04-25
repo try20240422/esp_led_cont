@@ -3,7 +3,7 @@ import requests
 
 st.title('LED Controller')
 
-node_mcu_ip = "192.168.1.240"  # NodeMcuのIPアドレスに置き換えてください
+node_mcu_ip = "42.151.114.219"  # NodeMcuのIPアドレスに置き換えてください
 
 def send_command(path):
     url = f"http://{node_mcu_ip}:81{path}"  # ポート番号をURLに含める
